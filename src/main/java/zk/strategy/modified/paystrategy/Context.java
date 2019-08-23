@@ -20,7 +20,7 @@ public class Context {
     }
 
     public void pay(String type) {
-
+        strategyMap.get(type).pay();
     }
 
 }
